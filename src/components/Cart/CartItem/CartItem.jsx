@@ -21,7 +21,7 @@ const CartItem = ({ item }) => {
   };
 
   return (
-    <div className="container-cart-item">
+    <div className="container-cart-item mb-3">
       <div className="cart-item-img-container">
         <img src={item.img} alt="placeholder" className="cart-item-img" />
       </div>

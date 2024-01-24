@@ -42,3 +42,20 @@
 .cart-item-info {
   padding-top: 20px;
 }
+
+@media screen and (max-width: 576px) {
+  .cart-item-img-container img {
+    width: 100px;
+    object-fit: cover;
+  }
+  .cart-item-body {
+    flex-direction: column;
+    padding-left: 0;
+  }
+  .cart-item-info {
+    padding-top: 10px;
+  }
+  .cart-item-actions {
+    padding-top: 15px;
+  }
+}

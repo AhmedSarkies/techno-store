@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import {
   Container,
-  Row,
-  Col,
   Carousel,
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption,
 } from "reactstrap";
 
 import "./hero.css";

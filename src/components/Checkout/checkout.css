@@ -1,0 +1,47 @@
+.title-form {
+  color: #0b4a72;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.form-group label {
+  color: #0b4a72;
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+.form-group input,
+.form-group textarea {
+  border: 1px solid #979797 !important;
+  outline: none !important;
+  box-shadow: none !important;
+  resize: none;
+}
+.form-group textarea {
+  height: 120px;
+}
+.form-group button {
+  background-color: #e98316;
+  color: #fff;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .form-group label {
+    font-size: 1rem;
+  }
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.8rem;
+  }
+  .form-group textarea {
+    height: 80px;
+  }
+  .form-group button {
+    padding: 10px 30px;
+    font-size: 0.8rem;
+  }
+}
