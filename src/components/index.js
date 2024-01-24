@@ -1,0 +1,9 @@
+export { default as Header } from "./Header/Header.jsx";
+export { default as Footer } from "./Footer/Footer.jsx";
+export { default as Home } from "./Home/Home.jsx";
+export { default as Cart } from "./Cart/Cart.jsx";
+export { default as Checkout } from "./Checkout/Checkout.jsx";
+export { default as OrderDone } from "./OrderDone/OrderDone.jsx";
+export { default as Hero } from "./Hero/Hero.jsx";
+export { default as Card } from "./Card/Card.jsx";
+export { default as CartItem } from "./Cart/CartItem/CartItem.jsx";

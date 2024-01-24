@@ -1,0 +1,12 @@
+.home-items-container {
+  background: #0b4a72;
+  padding: 20px 0;
+}
+.home-products-container {
+    padding: 30px 0;
+    text-align: center;
+}
+.home-products-container h2 {
+  color: #3f3f3f;
+  margin-bottom: 50px;
+}
